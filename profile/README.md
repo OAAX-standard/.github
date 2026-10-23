@@ -8,7 +8,7 @@
 
 # OAAX — Open AI Accelerator eXchange
 
-> **OAAX 2.0** — the 2.0 specification is published. Read the [Specification](https://oaax-standard.github.io/OAAX/Specification/);
+> **OAAX 2.0** — the 2.0 specification is published. Read the [Specification](https://docs.oaax.org/Specification/);
 > chip runtimes and toolchains are rolling out to 2.0 repository by repository.
 
 **OAAX** is an open standard for running AI models on any AI accelerator (CPU, GPU, NPU, VPU, ...) through one
@@ -32,10 +32,10 @@ OAAX is a **Linux Foundation AI & Data** project, initiated by **Network Optix**
 
 | I want to... | Go to |
 |---|---|
-| Understand the standard | [Welcome to OAAX](https://oaax-standard.github.io/OAAX/) and the [FAQ](https://oaax-standard.github.io/OAAX/FAQ/) |
-| Run a model on an accelerator | [Getting Started](https://oaax-standard.github.io/OAAX/Getting%20Started/) (YOLOv8 on Intel, NVIDIA and DEEPX) |
+| Understand the standard | [Welcome to OAAX](https://docs.oaax.org/) and the [FAQ](https://docs.oaax.org/FAQ/) |
+| Run a model on an accelerator | [Getting Started](https://docs.oaax.org/Getting%20Started/) (face detection on CPU and Intel, OAAX 2.0) |
 | Call a runtime from my own program | [`examples`](https://github.com/OAAX-standard/examples): a standalone C example, `bash c-example/build-run.sh` runs it on the CPU |
-| Implement OAAX for my chip | [Specification (2.0)](https://oaax-standard.github.io/OAAX/Specification/) and the [`reference-implementation`](https://github.com/OAAX-standard/reference-implementation) to copy from |
+| Implement OAAX for my chip | [Specification (2.0)](https://docs.oaax.org/Specification/) and the [`reference-implementation`](https://github.com/OAAX-standard/reference-implementation) to copy from |
 | Fix a bug or improve a runtime | The chip's repository below, then [CONTRIBUTING](https://github.com/OAAX-standard/OAAX/blob/main/CONTRIBUTING.md) |
 
 ## Compliant AI accelerators
@@ -48,7 +48,7 @@ OAAX is a **Linux Foundation AI & Data** project, initiated by **Network Optix**
 | DEEPX | DX-M1, DX-H1 | [`deepx-acceleration`](https://github.com/OAAX-standard/deepx-acceleration) |
 | Hailo | Hailo-8, Hailo-8L | [`hailo-acceleration`](https://github.com/OAAX-standard/hailo-acceleration) |
 
-Details and per-chip setup: [Compliant AI Accelerators](https://oaax-standard.github.io/OAAX/Compliant%20XPU/).
+Details and per-chip setup: [Compliant AI Accelerators](https://docs.oaax.org/Compliant%20XPU/).
 Building a runtime for another chip? Open an issue in [OAAX](https://github.com/OAAX-standard/OAAX/issues).
 
 ## Repositories
