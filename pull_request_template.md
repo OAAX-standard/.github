@@ -9,4 +9,4 @@
 ## Checklist
 
 - [ ] Every commit is signed off (`git commit -s`)
-- [ ] The repository's build and tests pass locally
+- [ ] Tests pass locally (if the repository has any)
