@@ -35,6 +35,8 @@ OAAX is a **Linux Foundation AI & Data** project, initiated by **Network Optix**
 | Understand the standard | [Welcome to OAAX](https://docs.oaax.org/) and the [FAQ](https://docs.oaax.org/FAQ/) |
 | Run a model on an accelerator | [Getting Started](https://docs.oaax.org/Getting%20Started/) (face detection on CPU and Intel, OAAX 2.0) |
 | Call a runtime from my own program | [`examples`](https://github.com/OAAX-standard/examples): a standalone C example, `bash c-example/build-run.sh` runs it on the CPU |
+| Download a runtime or toolchain, checksum-verified | [`oaax-manager`](https://github.com/OAAX-standard/oaax-manager) ([PyPI](https://pypi.org/project/oaax-manager/)): `uvx oaax-manager fetch runtime cpu` |
+| Check a runtime or toolchain against the spec | [`oaax-conformance`](https://github.com/OAAX-standard/conformance) ([PyPI](https://pypi.org/project/oaax-conformance/)) |
 | Implement OAAX for my chip | [Specification (2.0)](https://docs.oaax.org/Specification/) and the [`reference-implementation`](https://github.com/OAAX-standard/reference-implementation) to copy from |
 | Fix a bug or improve a runtime | The chip's repository below, then [CONTRIBUTING](https://github.com/OAAX-standard/OAAX/blob/main/CONTRIBUTING.md) |
 
@@ -56,6 +58,8 @@ Building a runtime for another chip? Open an issue in [OAAX](https://github.com/
 - [`OAAX`](https://github.com/OAAX-standard/OAAX): the specification, documentation site and interface headers
 - [`reference-implementation`](https://github.com/OAAX-standard/reference-implementation): reference runtime and toolchain
 - [`examples`](https://github.com/OAAX-standard/examples): host-application examples
+- [`oaax-manager`](https://github.com/OAAX-standard/oaax-manager): download and verify runtimes and toolchains
+- [`conformance`](https://github.com/OAAX-standard/conformance): the conformance suite for runtimes and toolchains
 - `*-acceleration`: one runtime and toolchain per chip (table above)
 - [`steering-committee`](https://github.com/OAAX-standard/steering-committee): governance, meeting notes and roadmap
 
