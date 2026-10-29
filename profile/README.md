@@ -8,8 +8,12 @@
 
 # OAAX — Open AI Accelerator eXchange
 
-> **OAAX 2.0** — the 2.0 specification is published. Read the [Specification](https://docs.oaax.org/Specification/);
-> chip runtimes and toolchains are rolling out to 2.0 repository by repository.
+> **OAAX 2.0 is released.** Read the [Specification](https://docs.oaax.org/Specification/). Runtimes and toolchains for
+> [CPU](https://github.com/OAAX-standard/reference-implementation/releases/tag/v2.0.0),
+> [Intel](https://github.com/OAAX-standard/intel-acceleration/releases/tag/v2.0.0),
+> [NVIDIA](https://github.com/OAAX-standard/nvidia-acceleration/releases/tag/v2.0.0),
+> [Hailo](https://github.com/OAAX-standard/hailo-acceleration/releases/tag/v2.0.0) and
+> [DEEPX](https://github.com/OAAX-standard/deepx-acceleration/releases/tag/v2.0.0) are published; other chips follow in 2.1.
 
 **OAAX** is an open standard for running AI models on any AI accelerator (CPU, GPU, NPU, VPU, ...) through one
 runtime interface. Convert your ONNX model once per chip, load the chip's runtime, and your application code stays the
