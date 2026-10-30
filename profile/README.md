@@ -37,8 +37,8 @@ OAAX is a **Linux Foundation AI & Data** project, initiated by **Network Optix**
 | I want to... | Go to |
 |---|---|
 | Understand the standard | [Welcome to OAAX](https://docs.oaax.org/) and the [FAQ](https://docs.oaax.org/FAQ/) |
-| Run a model on an accelerator | [Getting Started](https://docs.oaax.org/Getting%20Started/) (face detection on CPU and Intel, OAAX 2.0) |
-| Call a runtime from my own program | [`examples`](https://github.com/OAAX-standard/examples): a standalone C example, `bash c-example/build-run.sh` runs it on the CPU |
+| Run a model on an accelerator | [Getting Started](https://docs.oaax.org/Getting%20Started/) (the official YOLOX detector: convert it, run it, see the result) |
+| Call a runtime from my own program | [`examples`](https://github.com/OAAX-standard/examples): standalone C hosts. `yolox-example` runs the official YOLOX on any chip's runtime; `c-example` is the minimal one (`bash c-example/build-run.sh`, CPU) |
 | Drive a runtime from Python | [`PythonBindings`](https://github.com/OAAX-standard/PythonBindings) ([PyPI](https://pypi.org/project/oaax/), `import oaax`): load any OAAX runtime with NumPy arrays, with CPU examples |
 | Download a runtime or toolchain, checksum-verified | [`oaax-manager`](https://github.com/OAAX-standard/oaax-manager) ([PyPI](https://pypi.org/project/oaax-manager/)): `uvx oaax-manager fetch runtime cpu` |
 | Check a runtime or toolchain against the spec | [`oaax-conformance`](https://github.com/OAAX-standard/conformance) ([PyPI](https://pypi.org/project/oaax-conformance/)) |
